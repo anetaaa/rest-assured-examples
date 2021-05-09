@@ -1,5 +1,6 @@
 package com.testinglaboratory.testingbasics.examples;
 
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertAll;
@@ -18,6 +19,7 @@ public class BasicsTest {
     @Test
     public void shouldStateThatTrueIsTrue() {
         Boolean myStatement = true;
+
         assertTrue(myStatement);
     }
 
